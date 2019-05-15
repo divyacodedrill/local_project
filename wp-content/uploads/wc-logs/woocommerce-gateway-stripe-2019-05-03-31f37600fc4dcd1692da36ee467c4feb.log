@@ -1,0 +1,222 @@
+2019-05-03T10:55:32+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Your domain has been verified with Apple Pay!
+====End Log====
+
+
+2019-05-03T11:13:52+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Redirecting to Stripe Checkout page for order 198
+====End Log====
+
+
+2019-05-03T11:14:19+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+sources/src_1EVzLKExp0p0jzAludb2xSID
+====End Log====
+
+
+2019-05-03T11:14:20+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Info: Begin processing payment for order 198 for the amount of 149.00
+====End Log====
+
+
+2019-05-03T11:14:20+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+charges request: Array
+(
+    [currency] => inr
+    [amount] => 14900
+    [description] => Testing - Order 198
+    [capture] => false
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [customer_name] => Monsad csbvgfb
+            [customer_email] => svd@nhadg.com
+            [order_id] => 198
+        )
+
+    [source] => src_1EVzLKExp0p0jzAludb2xSID
+)
+
+====End Log====
+
+
+2019-05-03T11:14:22+00:00 DEBUG 
+====Stripe Version: 4.1.16====
+====Start Log====
+Processing response: stdClass Object
+(
+    [id] => ch_1EVzLOExp0p0jzAlmdwhC29e
+    [object] => charge
+    [amount] => 14900
+    [amount_refunded] => 0
+    [application] => 
+    [application_fee] => 
+    [application_fee_amount] => 
+    [balance_transaction] => 
+    [billing_details] => stdClass Object
+        (
+            [address] => stdClass Object
+                (
+                    [city] => 
+                    [country] => 
+                    [line1] => 
+                    [line2] => 
+                    [postal_code] => 
+                    [state] => 
+                )
+
+            [email] => 
+            [name] => svd@nhadg.com
+            [phone] => 
+        )
+
+    [captured] => 
+    [created] => 1556882062
+    [currency] => inr
+    [customer] => 
+    [description] => Testing - Order 198
+    [destination] => 
+    [dispute] => 
+    [failure_code] => 
+    [failure_message] => 
+    [fraud_details] => stdClass Object
+        (
+        )
+
+    [invoice] => 
+    [livemode] => 
+    [metadata] => stdClass Object
+        (
+            [customer_name] => Monsad csbvgfb
+            [customer_email] => svd@nhadg.com
+            [order_id] => 198
+        )
+
+    [on_behalf_of] => 
+    [order] => 
+    [outcome] => stdClass Object
+        (
+            [network_status] => approved_by_network
+            [reason] => 
+            [risk_level] => normal
+            [risk_score] => 47
+            [seller_message] => Payment complete.
+            [type] => authorized
+        )
+
+    [paid] => 1
+    [payment_intent] => 
+    [payment_method] => src_1EVzLKExp0p0jzAludb2xSID
+    [payment_method_details] => stdClass Object
+        (
+            [card] => stdClass Object
+                (
+                    [brand] => visa
+                    [checks] => stdClass Object
+                        (
+                            [address_line1_check] => 
+                            [address_postal_code_check] => 
+                            [cvc_check] => pass
+                        )
+
+                    [country] => US
+                    [description] => Visa Classic
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [fingerprint] => j0oaNKsmNnAlGtXF
+                    [funding] => credit
+                    [last4] => 4242
+                    [three_d_secure] => 
+                    [wallet] => 
+                )
+
+            [type] => card
+        )
+
+    [receipt_email] => 
+    [receipt_number] => 
+    [receipt_url] => https://pay.stripe.com/receipts/acct_1EVyvnExp0p0jzAl/ch_1EVzLOExp0p0jzAlmdwhC29e/rcpt_EzzKi43UdmS7VXBj018GpkruDDqtLjD
+    [refunded] => 
+    [refunds] => stdClass Object
+        (
+            [object] => list
+            [data] => Array
+                (
+                )
+
+            [has_more] => 
+            [total_count] => 0
+            [url] => /v1/charges/ch_1EVzLOExp0p0jzAlmdwhC29e/refunds
+        )
+
+    [review] => 
+    [shipping] => 
+    [source] => stdClass Object
+        (
+            [id] => src_1EVzLKExp0p0jzAludb2xSID
+            [object] => source
+            [amount] => 
+            [card] => stdClass Object
+                (
+                    [exp_month] => 12
+                    [exp_year] => 2020
+                    [last4] => 4242
+                    [country] => US
+                    [brand] => Visa
+                    [cvc_check] => pass
+                    [funding] => credit
+                    [fingerprint] => j0oaNKsmNnAlGtXF
+                    [three_d_secure] => optional
+                    [name] => 
+                    [address_line1_check] => 
+                    [address_zip_check] => 
+                    [tokenization_method] => 
+                    [dynamic_last4] => 
+                )
+
+            [client_secret] => src_client_secret_EzzJ6qgYhjRvXrp0ySJq94pS
+            [created] => 1556882062
+            [currency] => 
+            [flow] => none
+            [livemode] => 
+            [metadata] => stdClass Object
+                (
+                )
+
+            [owner] => stdClass Object
+                (
+                    [address] => 
+                    [email] => 
+                    [name] => svd@nhadg.com
+                    [phone] => 
+                    [verified_address] => 
+                    [verified_email] => 
+                    [verified_name] => 
+                    [verified_phone] => 
+                )
+
+            [statement_descriptor] => 
+            [status] => consumed
+            [type] => card
+            [usage] => reusable
+        )
+
+    [source_transfer] => 
+    [statement_descriptor] => 
+    [status] => succeeded
+    [transfer_data] => 
+    [transfer_group] => 
+)
+
+====End Log====
+
+

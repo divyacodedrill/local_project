@@ -1,0 +1,30 @@
+Dashboard:-
+
+Username: divya
+Password: 1234567890
+
+------------------------------------------------------------
+
+#Stripe Test Keys:-
+
+Main Account:-
+Email: divya.codedrill@gmail.com
+Password: code@123
+		
+Publishable key: pk_test_kSUpQ2PwwExUj1qU7oZ5YIPh004a73koTQ
+Secret key: sk_test_3H1WlAv85YhzIpzH2cE88NgR00ACuEWbgW
+
+Card Number: 4242424242424242
+Expiry Month: Any
+CVV: Any
+------------------------------------------------------------
+
+#Paypal Details:-
+
+Main Account:-
+Email: divya.codedrill@gmail.com
+Password: code@123
+
+Sandbox Accounts:
+Bussiness: divya.codedrill-facilitator@gmail.com | code@123
+Personal:  divya.codedrill-buyer@gmail.com | code@123
